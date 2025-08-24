@@ -376,6 +376,7 @@
 		"docs": "cd docs && npm run dev",
 		"docs:check-links": "cd docs && npm run check",
 		"docs:rename-file": "cd docs && npm run rename",
+		"docs:reference": "typedoc && node scripts/generate-reference-index.js",
 		"report-issue": "node scripts/report-issue.js"
 	},
 	"lint-staged": {
@@ -423,6 +424,8 @@
 		"ts-node": "^10.9.2",
 		"ts-proto": "^2.6.1",
 		"tsconfig-paths": "^4.2.0",
+		"typedoc": "^0.28.10",
+		"typedoc-plugin-markdown": "^4.8.1",
 		"typescript": "^5.4.5"
 	},
 	"dependencies": {
